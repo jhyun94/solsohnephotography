@@ -1,0 +1,59 @@
+html,body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Advent Pro', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.landing-page {
+  background: url('images/landing.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100%;
+  color: #fff;
+}
+
+.landing-page p {
+  margin: 0;
+}
+.landing-page .container {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: 480px;
+  padding-left: 280px;
+  letter-spacing: 2.8px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+#enter:hover {
+  cursor: pointer;
+}
+
+.main {
+  display: none;
+  background-color: #2C2C2B;
+  color: #fff;
+}
+
+.nav-bar {
+  list-style-type: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+}
+
+.row img{
+  height: 300px;
+  width: 300px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
