@@ -1,0 +1,176 @@
+html,body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Advent Pro', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.landing-page {
+  background: url('images/landing.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100%;
+  color: #fff;
+}
+
+.landing-page p {
+  margin: 0;
+}
+.landing-page .container {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: 480px;
+  padding-left: 280px;
+  letter-spacing: 2.8px;
+}
+
+.enter-btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+.enter-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.title-icon{
+  color: #fff;
+  text-decoration: none;
+}
+
+.title-icon:hover {
+  color:#fff;
+  text-decoration: none;
+}
+.name {
+  font-size: 30px;
+}
+
+#enter:hover {
+  cursor: pointer;
+}
+
+.main {
+  background-color: #2C2C2B;
+  color: #fff;
+  margin: 0;
+}
+.header {
+  text-align: center;
+  background-color: #2C2C2B;
+  color: #fff;
+  margin: 0;
+}
+
+#title {
+  letter-spacing: 1.280px;
+  font-size: 40px;
+  display: inline-block;
+}
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.nav-bar a {
+  color: #fff;
+}
+
+.nav-bar a:hover {
+  color: #87ceeb;
+  text-decoration: none;
+}
+
+.row img{
+  height: 300px;
+  width: 400px;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+/* css for about page */
+
+.about-main {
+  background: url("images/about.jpg")no-repeat center center;
+  background-size: cover;
+  margin: 0;
+}
+
+.info-container {
+  background-color: #fff;
+  display: inline-block;
+/*  width: 400px;
+  height: 400px;*/
+  padding: 0 26px;
+  right: -900px;
+  top: 60px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  margin: 30px 0;
+  margin-left: 30px;
+}
+
+.info-container p {
+/*  padding: 0 26px;*/
+  font-size: 16px;
+  width: 300px;
+}
+
+/* contact page */
+.contact-main {
+  background: url("images/contact.jpg") no-repeat center center fixed;
+  background-size: cover;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  top:100px;
+  margin: 0;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.contact-box {
+/*  background-color: #fff;*/
+  display: inline-block;
+  border-radius: 3px;
+  position: relative;
+  top: 120px;
+  left: 100px;
+  padding: 30px;
+  color: #fff;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+/*body {
+    animation: myfadeInAnimation 2s;
+}
+
+@keyframe myfadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-webkit-keyframes myfadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}*/
