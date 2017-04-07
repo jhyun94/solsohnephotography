@@ -70,3 +70,33 @@ html,body {
 .row {
   margin-bottom: 30px;
 }
+
+/* css for about page */
+
+.about-main {
+  background: url("images/about.jpg")no-repeat center center;
+  background-size: cover;
+  margin: 0;
+}
+
+.info-container {
+  background-color: #fff;
+  display: inline-block;
+/*  width: 400px;
+  height: 400px;*/
+  padding: 0 26px;
+  right: -900px;
+  top: 60px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  margin: 30px 0;
+  margin-left: 30px;
+}
+
+.info-container p {
+/*  padding: 0 26px;*/
+  font-size: 16px;
+  width: 300px;
+}
+
+
