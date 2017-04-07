@@ -26,6 +26,24 @@ html,body {
   letter-spacing: 2.8px;
 }
 
+.enter-btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+.enter-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.title-icon{
+  color: #fff;
+  text-decoration: none;
+}
+
+.title-icon:hover {
+  color:#fff;
+  text-decoration: none;
+}
 .name {
   font-size: 30px;
 }
@@ -35,7 +53,6 @@ html,body {
 }
 
 .main {
-  display: none;
   background-color: #2C2C2B;
   color: #fff;
   margin: 0;
@@ -50,6 +67,7 @@ html,body {
 #title {
   letter-spacing: 1.280px;
   font-size: 40px;
+  display: inline-block;
 }
 .nav-bar {
   list-style-type: none;
@@ -144,3 +162,15 @@ html,body {
   font-size: 16px;
 }
 
+/*body {
+    animation: myfadeInAnimation 2s;
+}
+
+@keyframe myfadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-webkit-keyframes myfadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}*/
