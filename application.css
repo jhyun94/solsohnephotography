@@ -99,4 +99,33 @@ html,body {
   width: 300px;
 }
 
+/* contact page */
+.contact-main {
+  background: url("images/contact.jpg") no-repeat center center fixed;
+  background-size: cover;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  top:120px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.contact-box {
+/*  background-color: #fff;*/
+  display: inline-block;
+  border-radius: 3px;
+  position: relative;
+  top: 120px;
+  left: 100px;
+  padding: 30px;
+  color: #fff;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
 
